@@ -1,0 +1,21 @@
+{
+  "name": "fiza_student_management_system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {"access": "public"},
+  "keywords": [],
+  "author": "Fiza",
+  "license": "MIT",
+  "description": "A CLI-based Student Management System that allows users to manage student records efficiently. Users can add, view, update, and delete student information.",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
